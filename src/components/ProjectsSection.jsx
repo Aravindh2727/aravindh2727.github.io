@@ -21,7 +21,7 @@ const ProjectsSection = () => {
       tech: ['MERN Stack', 'Firebase', 'Chart.js', 'HTML5 Canvas'],
       desc: 'Built a live-syncing analytics dashboard with dual roles to track coding milestones, integrating Canvas to visualize the distribution of solved LeetCode and HackerRank problems.',
       category: 'Full-Stack Web',
-      liveUrl: 'https://aravindh2727.github.io/personal-achievement-dashboard/'
+      liveUrl: 'https://personal-achievement-dashboard.onrender.com'
     },
     {
       title: 'Hotel Billing System (Smart POS)',

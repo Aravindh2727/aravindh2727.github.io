@@ -33,7 +33,7 @@ const CertificationsSection = () => {
       issuer: 'Personal Project',
       details: 'Built a live-syncing analytics dashboard with dual roles to track coding milestones and visualize HackerRank & LeetCode problems and LinkedIn & github repository.',
       icon: <Trophy size={28} className="text-gradient" />,
-      liveUrl: 'https://aravindh2727.github.io/personal-achievement-dashboard/'
+      liveUrl: 'https://personal-achievement-dashboard.onrender.com'
     }
   ];
 
