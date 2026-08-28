@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
-    <section id="home" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', paddingTop: '72px', boxSizing: 'border-box' }}>
+    <section id="home" className="section-padding" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center' }}>
       <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '32px' }}>
-        
-        <motion.div 
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -16,7 +16,7 @@ const HeroSection = () => {
             Hi, I'm Aravindh V
           </h2>
           <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', lineHeight: '1.1', marginBottom: '16px' }}>
-            Full-Stack Web & <br/>
+            Full-Stack Web & <br />
             <span className="text-gradient">Mobile App Developer</span>
           </h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto', lineHeight: '1.6' }}>
@@ -24,7 +24,7 @@ const HeroSection = () => {
           </p>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
