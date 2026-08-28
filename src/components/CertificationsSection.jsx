@@ -93,7 +93,7 @@ const CertificationsSection = () => {
           <h3 style={{ fontSize: '1.5rem', marginBottom: '24px' }} className="text-gradient">Key Achievements</h3>
           <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '24px' }}>
             <div>
-              <h4 style={{ fontSize: '2.5rem', color: 'var(--text-main)', marginBottom: '8px' }}>10+</h4>
+              <h4 style={{ fontSize: '2.5rem', color: 'var(--text-main)', marginBottom: '8px' }}>15+</h4>
               <p style={{ color: 'var(--text-muted)' }}>Applications Deployed<br />with 99.9% uptime</p>
             </div>
             <div>
@@ -101,7 +101,7 @@ const CertificationsSection = () => {
               <p style={{ color: 'var(--text-muted)' }}>University Peers Mentored<br />in Python & DSA</p>
             </div>
             <div>
-              <h4 style={{ fontSize: '2.5rem', color: 'var(--text-main)', marginBottom: '8px' }}>8.60</h4>
+              <h4 style={{ fontSize: '2.5rem', color: 'var(--text-main)', marginBottom: '8px' }}>8.50</h4>
               <p style={{ color: 'var(--text-muted)' }}>CGPA in B.Sc CS<br />(AI & ML)</p>
             </div>
           </div>

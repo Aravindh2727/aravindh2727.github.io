@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
-    <section id="home" className="section-padding" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', paddingTop: '120px' }}>
+    <section id="home" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', paddingTop: '72px', boxSizing: 'border-box' }}>
       <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '32px' }}>
         
         <motion.div 
@@ -33,10 +33,10 @@ const HeroSection = () => {
           <a href="#projects" className="btn btn-primary">
             View My Work <ArrowRight size={18} />
           </a>
-          <a href="/Aravindh_V_Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
+          <a href="/Aravindh.V.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
             View Resume <Eye size={18} />
           </a>
-          <a href="/Aravindh_V_Resume.pdf" className="btn btn-outline" download="Aravindh_V_Resume.pdf">
+          <a href="/Aravindh.V.pdf" className="btn btn-outline" download="Aravindh.V.pdf">
             Download Resume <Download size={18} />
           </a>
           <a href="#contact" className="btn btn-outline" style={{ border: 'none', color: 'var(--text-main)', boxShadow: 'none' }}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Terminal, Smartphone, Database, Cloud, Activity } from 'lucide-react';
+import { Terminal, Smartphone, Database, Cloud, Activity, Monitor, Server, Wifi, Shield } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const SkillsSection = () => {
@@ -7,7 +7,7 @@ const SkillsSection = () => {
     {
       title: 'Web Development',
       icon: <Terminal size={24} className="text-gradient" />,
-      skills: ['React.js', 'Node.js', 'Express.js', 'HTML', 'CSS', 'REST APIs', 'Responsive Design']
+      skills: ['React.js', 'Node.js', 'Express.js', 'HTML', 'CSS', 'REST APIs', 'Responsive Design', 'Full-Stack Development']
     },
     {
       title: 'Mobile App Development',
@@ -17,17 +17,37 @@ const SkillsSection = () => {
     {
       title: 'Backend & Databases',
       icon: <Database size={24} style={{ color: 'var(--neon-magenta)' }} />,
-      skills: ['Python', 'JavaScript', 'SQL', 'MongoDB']
+      skills: ['Python', 'JavaScript', 'SQL', 'MongoDB', 'Firebase']
     },
     {
       title: 'Cloud & DevOps',
       icon: <Cloud size={24} style={{ color: 'var(--neon-cyan)' }} />,
-      skills: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'GitHub Actions', 'Git']
+      skills: ['CI/CD', 'GitHub Actions', 'Git', 'Render']
     },
     {
-      title: 'Methodologies',
+      title: 'Methodologies & Soft Skills',
       icon: <Activity size={24} style={{ color: '#fff' }} />,
-      skills: ['Test-Driven Development (TDD)', 'Object-Oriented Programming (OOP)', 'Agile/Scrum']
+      skills: ['Test-Driven Development (TDD)', 'OOP', 'Logical Thinking', 'Teamwork']
+    },
+    {
+      title: 'IT Support',
+      icon: <Monitor size={24} className="text-gradient" />,
+      skills: ['Windows 10/11', 'Hardware & Software Troubleshooting', 'Laptop/Desktop Deployment']
+    },
+    {
+      title: 'System Administration',
+      icon: <Server size={24} className="text-gradient-alt" />,
+      skills: ['User Management', 'Active Directory Basics', 'Domain Joining', 'BitLocker']
+    },
+    {
+      title: 'Networking',
+      icon: <Wifi size={24} style={{ color: 'var(--neon-magenta)' }} />,
+      skills: ['TCP/IP', 'LAN/Wi-Fi', 'Network Drives', 'Basic File/Printer Sharing']
+    },
+    {
+      title: 'Security & Tools',
+      icon: <Shield size={24} style={{ color: 'var(--neon-cyan)' }} />,
+      skills: ['Windows Firewall', 'Certificates', 'Software Deployment', 'CrowdStrike', 'Zscaler', 'HySecure']
     }
   ];
 

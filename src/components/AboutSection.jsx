@@ -57,7 +57,7 @@ const AboutSection = () => {
               </h3>
               <div style={{ marginBottom: '16px' }}>
                 <h4 style={{ fontSize: '1.1rem', marginBottom: '4px', color: 'var(--text-main)' }}>B.Sc. Computer Science (AI & ML)</h4>
-                <p style={{ color: 'var(--neon-cyan)', fontSize: '0.9rem', marginBottom: '8px' }}>Takshashila University | Expected May 2027 | CGPA: 8.60</p>
+                <p style={{ color: 'var(--neon-cyan)', fontSize: '0.9rem', marginBottom: '8px' }}>Takshashila University | Expected May 2027 | CGPA: 8.50</p>
               </div>
               <div style={{ width: '100%', height: '1px', background: 'var(--glass-border)', margin: '16px 0' }}></div>
               <div>
